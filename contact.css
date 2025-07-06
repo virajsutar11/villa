@@ -1,0 +1,284 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   
+    height: 65px;
+    font-size: larger;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    
+}
+nav ul :hover {
+color:red;
+}
+nav .span2 {
+color: aliceblue;
+}
+nav .span2 :hover{
+    color: red;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+nav .circle2{
+    margin-left: 719px;
+    margin-top: 10px;
+}
+nav .circle2 i{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.main{
+    height: 90vh;
+    width: 1220px;
+    padding: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/30/00/25/villa-2186914_1280.jpg);
+    background-size: cover;
+    background-position: center;
+   opacity: 0.7;
+
+
+   
+    
+}
+
+.main h1{
+    color:orangered;
+    font-size:4em;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-shadow: 10px;
+    
+}
+
+
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family:sans-serif;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+
+h1{
+    padding: 50px;
+}
+
+
+nav ul li{
+    margin: 0 20px;
+    font-weight: 800;
+}
+.span2
+{
+    margin-top: 10px;
+    width: 170px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.img{
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.circle2{
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-bottom: 250px;
+    margin-left: 235px;
+    
+  
+    
+}
+
+
+
+.second-container{
+    height: 40vh;
+    width: 100%;
+}
+.second-container .opyacity-container {
+    margin-top: 20px;
+    opacity: 0.6 ;
+    position: relative;
+    color: black;
+}
+.second-container .opyacity-container2  span{
+    position: absolute;
+    top: 200px;
+    margin-left: 41%;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 1.3em;
+    
+    height: 38px;
+    width: 180px;
+    background-color: black;
+    color: white;
+}
+.second-container .opyacity-container2  h1{
+    position: absolute;
+    top: 220px;
+    margin-left: 30%;
+    padding-left: 30px;
+   
+    padding-top: 10px;
+    font-size: 4.5em;
+  
+   
+
+}
+
+.page2{
+    height: 120vh;
+    width: 100vw;
+    margin-top: 280px;
+    display: flex;
+}
+.page2 .span3{
+    margin-left: 100px;
+    color: orangered;
+    font-weight: 900;
+    font-size: 1.3em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page2 h1{
+
+    margin-left:50px ;
+    padding-top: 10px;
+    font-size: 2em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.page2 p{
+    width: 500px;
+    line-height: 30px;
+    margin-left: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card .card1{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(162, 104, 104);
+    display: flex;
+    border: 1px solid gray;
+}
+.card .card2{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(162, 104, 104);
+    display: flex;
+     border: 1px solid gray;
+}
+.card .card1 img{
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.card .card1 p{
+    line-height: 30px;
+    margin-left: 10px;
+     color: gainsboro;
+}
+.card .card1 span{
+    font-size: 1.5em;
+    font-weight: 700px;
+    margin-left: 20px;
+     margin-top: 23px;
+     color: black;
+}
+.card .card2 img{
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.card .card2 p{
+    line-height: 30px;
+    margin-left: 30px;
+    color: gainsboro;
+}
+.card .card2 span{
+    font-size: 1.5em;
+    font-weight: 700px;
+    margin-left: 0px;
+    padding-left: 0px;
+     margin-top: 23px;
+     color: black;
+}
+.page2 .form-container{
+    height: 580px;
+    width: 380px;
+    background-color: rgb(248, 247, 245);
+    margin-left: 150px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px gray;
+    padding: 40px;
+    line-height: 25px;
+    
+
+}
+.page2 .form-container input{
+    width: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.page2 .form-container .Massage{
+    height: 120px;
+    padding-top: 0px;
+    border-radius: 20px;
+
+}
+.page2 .form-container button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 40px;
+}
+.map-container iframe{
+    margin-top: 100px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.last-container{
+    background-color: black;
+    
+    width: 100vw;
+    
+    color: aliceblue;
+}
+.last-container h1{
+   margin-top: 200px;
+   margin-left: 380px;
+}
+
